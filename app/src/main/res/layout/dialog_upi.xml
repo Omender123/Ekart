@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/card_shadow">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_color"
+        android:padding="@dimen/margin_10dp"
+        android:text="@string/upi_payment"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/txt_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PayeeName"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mepani Bhavna"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/txt_color" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:layout_marginTop="@dimen/margin_5dp"
+            android:layout_marginBottom="@dimen/margin_5dp"
+            android:background="@color/bg_color"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payee Address"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvUPI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mobilenumber@upi"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/txt_color" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:layout_marginTop="@dimen/margin_5dp"
+            android:layout_marginBottom="@dimen/margin_5dp"
+            android:background="@color/bg_color"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amount"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/txt_color" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:layout_marginTop="@dimen/margin_5dp"
+            android:layout_marginBottom="@dimen/margin_5dp"
+            android:background="@color/bg_color"/>
+        <TextView
+            android:id="@+id/tvPayment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Continue Payment"
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:layout_marginBottom="@dimen/margin_10dp"
+            android:background="@drawable/confirm_bg"
+            android:minHeight="0dp"
+            android:gravity="end"
+            android:layout_gravity="center"
+            android:padding="@dimen/margin_10dp"
+            android:textColor="@color/white"/>
+
+
+
+
+    </LinearLayout>
+</LinearLayout>

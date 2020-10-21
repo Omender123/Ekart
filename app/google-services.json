@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "551081321761",
+    "firebase_url": "https://city-e-commerce-app.firebaseio.com",
+    "project_id": "city-e-commerce-app",
+    "storage_bucket": "city-e-commerce-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551081321761:android:2db6df0980a0aec1644a60",
+        "android_client_info": {
+          "package_name": "wrteam.ecommerce.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "551081321761-13e7r91kpskmph9u5hj2kl7grehjhses.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "wrteam.ecommerce.app",
+            "certificate_hash": "45bb3e18adfa655e32e201e664c93156920e29fb"
+          }
+        },
+        {
+          "client_id": "551081321761-efi4u0jkfvhl9jlci7h9b1emshuub1qq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "wrteam.ecommerce.app",
+            "certificate_hash": "71a9e1e2a7b3b5c669438bca14c06f174c9b4041"
+          }
+        },
+        {
+          "client_id": "551081321761-kj2t7ml8nn31g084ckcchslufkuqmomd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQ3EY67wsUU8Oeu552dZipRIPWTdhPpjs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "551081321761-kj2t7ml8nn31g084ckcchslufkuqmomd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
